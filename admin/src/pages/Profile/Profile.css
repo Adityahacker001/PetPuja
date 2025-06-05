@@ -1,0 +1,33 @@
+.profiles{
+    width: 60%;
+}
+.nottoken{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 105, 71);
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.profilehead{
+    width: 1085px;
+    padding-left: 40%;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: 300;
+    background-color: rgba(111, 111, 111, 0.239);
+    text-decoration: underline;
+
+}
+.profile{
+    font-size: 25px;
+    padding-left: 40px;
+    color: tomato;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.profile .datas{
+    color: black;
+    margin-left: 20px;
+    text-decoration: underline;
+}
