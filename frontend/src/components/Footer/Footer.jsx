@@ -31,6 +31,9 @@ const Footer = () => {
                         <li>contact@cheiffood.com</li>
                     </ul>
                 </div>
+                <div className='owner-web'>
+                 <p>Adityasingh</p>
+                </div>
             </div>
             <hr />
             <p className="footer-copyright">Copyright 2024 © cheiffood.com - All Right Reserved.</p>
