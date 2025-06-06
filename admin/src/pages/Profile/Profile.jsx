@@ -12,7 +12,7 @@ const Profile = () => {
   const [token, setToken] = useState("")
   const [email, setEmail] = useState("")
 
-    const url = "http://localhost:4000"
+    const url = "https://petpuja-backend-ww2v.onrender.com"
     const fetchAdmin = async () => {
     const response = await axios.get(url + "/api/admin/listadmin");
     setData(response.data.data)
