@@ -8,7 +8,7 @@ import cartRouter from "./routes/cartRoute.js"
 import orderRouter from "./routes/orderRoute.js"
 import restaurantRouter from "./routes/resturantRoute.js"
 
-
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // ap congig
 const app = express()
